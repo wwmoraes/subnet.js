@@ -1,0 +1,18 @@
+{
+  "name": "subnet.js",
+  "version": "0.0.1",
+  "main": "index.js",
+  "types": "index.ts",
+  "license": "Apache-2.0",
+  "gypfile": true,
+  "scripts": {
+    "autogypi": "autogypi",
+    "node-gyp": "node-gyp",
+    "emcc-path": "emcc-path",
+    "copyasm": "copyasm",
+    "ndts": "ndts"
+  },
+  "dependencies": {
+    "node-addon-api": "^3.0.0"
+  }
+}
